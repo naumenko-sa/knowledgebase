@@ -91,6 +91,10 @@ git checkout -b feature1
 git add -A.
 git commit
 git push --set-upstream origin feature1
+# different site
+git fetch origin
+git checkout feature1
+git add/commit/push
 # pull request1
 git checkout master
 git checkout -b feature2
